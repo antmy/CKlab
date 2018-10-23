@@ -1,0 +1,29 @@
+body{
+    background-color: mistyrose;
+}
+
+/*头部（图片）样式*/
+header{
+    width: 100%;
+    background-color:white;
+    text-align: center;
+}
+header img{
+    width: 50%;
+}
+
+/*内嵌页面样式*/
+iframe{
+    width: 70%;
+    margin-left: 15%;
+    height: 600px;
+    border: 0;
+    vertical-align: bottom;
+    background-color: mistyrose;
+}
+
+/*页脚样式*/
+footer{
+    background-color: silver;
+    text-align: center;
+}

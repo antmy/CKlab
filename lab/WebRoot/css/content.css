@@ -1,0 +1,16 @@
+/*图片及字体样式*/
+/*图片*/
+img{
+    width: 50%;
+    float: left;
+    margin-right: 10%;
+}
+/*文本*/
+article{
+    width: 250px;
+    margin-top: 5%;
+    float: left;
+}
+article span{
+    font-size: 13px;
+}

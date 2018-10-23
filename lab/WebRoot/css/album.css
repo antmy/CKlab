@@ -1,0 +1,17 @@
+/*标题样式*/
+header h3{
+    color: #2aabd2;
+}
+
+/*主体样式*/
+section{
+    width: 25%;
+    margin-left: 5%;
+    float: left;
+}
+img{
+    width: 100%;
+}
+article{
+    text-align: center;
+}
