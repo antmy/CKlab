@@ -1,0 +1,23 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>硕士研究生</title>
+    <link rel="stylesheet" href="{% static '/css/album.css' %}">
+</head>
+<body>
+    <header>
+        <h3>硕士研究生</h3>
+        <hr>
+    </header>
+
+{#    循环输出图片#}
+    {% for pic in img %}
+        <section>
+            <img src="{{ MEDIA_URL }}{{ pic.picture }}">
+            <article>{{ pic.name }}</article>
+        </section>
+    {% endfor %}
+</body>
+</html>

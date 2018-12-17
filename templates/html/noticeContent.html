@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>通知公告</title>
+    <link rel="stylesheet" href="{% static '/css/text.css' %}">
+</head>
+<body>
+<header>
+    <h3>通知公告：{{ articles.title }}</h3>
+    <hr>
+</header>
+<section>
+    <span>{{ articles.content1 }}</span><br><br>
+    <span>{{ articles.content2 }}</span><br><br>
+    <span>{{ articles.content3 }}</span><br><br><br><br>
+    <a href="/media/{{ articles.file }}">{{ articles.file }}</a>
+</section>
+</body>
+</html>

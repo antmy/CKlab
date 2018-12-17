@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学术成果</title>
+    <link rel="stylesheet" href="{% static '/css/text.css' %}">
+</head>
+<body>
+<header>
+    <h3>学术成果</h3>
+    <hr>
+</header>
+<section>
+    <h3>{{ articles.title }}</h3>
+    <span>{{ articles.content }}</span><br><br><br><br>
+
+</section>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>历史竞赛</title>
+    <link rel="stylesheet" href="{% static '/css/text.css' %}">
+</head>
+<body>
+<header>
+    <h3>历史竞赛</h3>
+    <hr>
+</header>
+<section>
+    <ul>
+
+        {% for artical in articals %}
+            <li>
+                <a href="{% url 'lab:competitionContent' artical.id %}">{{ artical.title }}</a>
+                <span class="date">{{ artical.time }}</span>
+            </li>
+            <br>
+        {% endfor %}
+
+
+
+    </ul>
+</section>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>讲座信息</title>
+    <link rel="stylesheet" href="{% static '/css/text.css' %}">
+</head>
+<body>
+<header>
+    <h3>讲座题目：{{ articles.title }}</h3>
+    <hr>
+</header>
+<section>
+    <h5>报告人：{{ articles.people }}</h5>
+    <h5>单位：{{ articles.danwei }}</h5>
+    <h5>报告时间：{{ articles.lectureTime }}</h5>
+    <span>讲座内容：<br>{{ articles.content }}</span><br><br>
+    <span>报告人简介：<br>{{ articles.peopleIntroduce }}</span>
+    <span>{{ articles.url }}</span>
+</section>
+</body>
+</html>

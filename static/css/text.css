@@ -1,0 +1,24 @@
+/*标题样式*/
+
+header h3{
+    color: #2aabd2;
+
+}
+
+li{
+    font-size: 13px;
+    font-weight: lighter;
+    color: #3c3c3c;
+}
+/*a标签样式*/
+a{
+    color: #3c3c3c;
+    text-decoration: none;
+}
+a:hover{
+    color: #2aabd2;
+}
+/*日期样式*/
+.date{
+    float: right;
+}
